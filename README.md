@@ -1,6 +1,6 @@
 # Nationality Predictor
 
-[DEMO](index.html)
+[DEMO](https://shiburaj.github.io/tailwind-nationality-predictor/)
 
 A smart app to predict the nationality of a person by their name.
 
@@ -13,3 +13,6 @@ A smart app to predict the nationality of a person by their name.
 - Tailwind for UI
 - VueJS
 - ReactJS
+
+---
+![Sample UI](sample.jpg)
