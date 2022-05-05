@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nationality Predictor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex justify-center items-center bg-gradient-to-b from-indigo-600 to-indigo-700 min-h-screen">
+    <div class="container max-w-2xl">
+        <div class="text-center">
+            <h1 class="text-blue-50 font-bold uppercase text-6xl mx-5">Nationality Predictor</h1>
+            <h2 class="text-blue-200 mx-5">Enter a name to get a prediction of the country to which it may belong.</h2>
+        </div>
+        <div class="hidden flex flex-col gap-5 justify-center mt-5 mx-3">
+            <input type="text" class="text-3xl rounded py-2 px-4 text-left shadow-lg" value="Jon">
+            <div class="mx-auto">
+                <button class="text-3xl bg-blue-70 border-2 py-5 px-8 rounded-full text-blue-50 hover:text-blue-700 hover:bg-blue-50 transition-all duration-300 ease-in-out">Country?</button>
+            </div>
+        </div>
+        <div class="hidden flex flex-col gap-5 justify-center mt-5 mx-3">
+            <div class="flex justify-center items-center text-blue-300 animate-spin">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-32 w-32" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                </svg>
+            </div>
+            <h1 class="text-center text-blue-300">Predicting...</h1>
+        </div>
+        <div class="bg-white text-gray-700 m-5 p-5 text-xl text-center rounded shadow-lg">
+            <div>
+                <h1>Looks like <span class="font-bold italic">Jon</span> must be from,</h1>
+                <h2 class="text-5xl italic font-bold m-5">India</h2>
+                <div class="text-center mx-auto">
+                    <img class="mx-auto w-32 rounded-lg" src="https://flagcdn.com/w320/in.png" alt="India">
+                </div>
+                <div class="mt-5">
+                    <span class="text-xs uppercase m-5 py-1 px-3 rounded-full bg-blue-800 text-gray-100">
+                        Probability : 37% 
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
